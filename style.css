@@ -1,19 +1,25 @@
-    header {
-      text-align: center;
-      background: url("images/banner.jpg");
-      background-size: cover;
-      color: white;
-    }
-    .nav {
-      color: white;
-    }
     h1 {
+      text-align: center;
+      
+      background-size: cover;
+      color: teal;
       font-size: 70px;
     }
+    p {
+      color:purple;
+      font-family: Times New Roman;
+      font-size: 20px;
+    }
+    
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
+      width: 500;
+      height:400;
+    }
+    body {
+      background-color:#00FA9A;
     }
     ul {
       padding: 10px;
@@ -29,10 +35,7 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
+      
       li {
         padding: 5px;
         display: block;
